@@ -1,0 +1,27 @@
+#skills .list-icons li .skills-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills .list-icons li .skills-div span {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.list-icons .list-inline-item .skills-div:hover {
+    color: #bd5d38
+}
+
+.resume-section p>b {
+    color: #bd5d38;
+}
+
+#contact .list-ico li i , span{
+    color: #bd5d38;
+}
+
+#skills ul.list-inline  .skills-div span{
+    color: #868e96;
+}
