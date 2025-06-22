@@ -18,10 +18,79 @@
     color: #bd5d38;
 }
 
-#contact .list-ico li i , span{
+#contact .list-ico li i,
+span {
     color: #bd5d38;
 }
 
-#skills ul.list-inline  .skills-div span{
+#skills ul.list-inline .skills-div span {
     color: #868e96;
+}
+
+#sideNav .navbar-brand .img-profile {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.projects .card {
+    padding: 15px;
+    /* max-height: 350px; */
+    height: 100%;
+}
+
+.projects .card img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    border-bottom: 1px solid #bd5d38;
+}
+
+.projects .card h6 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.projects .card h6:hover {
+    color: #bd5d38;
+    cursor: pointer;
+}
+
+.projects .card p {
+    font-size: 15px;
+    color: #868e96;
+}
+
+h2.mb-5 {
+    font-size: 35px;
+}
+
+.list-inline-item.resume>a {
+    background: #bd5d38;
+    padding: 7px 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 3px;
+    animation: pulse;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0px 0 #bd5d38;
+    }
+
+    100% {
+        box-shadow: 0 0 15px 2px #bd5d38;
+    }
+
+}
+
+.list-inline-item.resume>a:hover {
+    background: #bd5d38;
+    color: white;
 }
