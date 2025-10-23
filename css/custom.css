@@ -45,11 +45,24 @@ span {
     width: auto;
     object-fit: contain;
     border-bottom: 1px solid #bd5d38;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgb(220, 220, 220);
 }
 
 .projects .card h6 {
     font-size: 20px;
     margin-top: 20px;
+}
+
+.projects .card h6 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.projects .card h6 a:hover {
+    color: #bd5d38;
 }
 
 .projects .card h6:hover {
