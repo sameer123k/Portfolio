@@ -44,7 +44,7 @@ span {
     height: 80px;
     width: auto;
     object-fit: contain;
-    border-bottom: 1px solid #bd5d38;
+    /* border-bottom: 1px solid #bd5d38; */
     background-color: #f9f9f9;
     padding: 10px;
     border-radius: 3px;
